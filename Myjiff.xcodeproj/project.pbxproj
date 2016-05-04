@@ -17,6 +17,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1164E86F1CD9F97B00993324 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1164E86B1CD9F97B00993324 /* KituraBluePic-server.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A2A8F0E91C3168AF00C73B61;
+			remoteInfo = "KituraBluePic-server";
+		};
 		11CFF17A1C1B0D8700656F9B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 11CFF15A1C1B0D8700656F9B /* Project object */;
@@ -27,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1164E86B1CD9F97B00993324 /* KituraBluePic-server.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "KituraBluePic-server.xcodeproj"; path = "../../../Downloads/Kitura-BluePic-master/KituraBluePic-server/KituraBluePic-server.xcodeproj"; sourceTree = "<group>"; };
 		11CFF1621C1B0D8700656F9B /* Myjiff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Myjiff.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11CFF1661C1B0D8700656F9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11CFF1671C1B0D8700656F9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,9 +66,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1164E86C1CD9F97B00993324 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1164E8701CD9F97B00993324 /* KituraBluePic-server */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		11CFF1591C1B0D8700656F9B = {
 			isa = PBXGroup;
 			children = (
+				1164E86B1CD9F97B00993324 /* KituraBluePic-server.xcodeproj */,
 				11CFF1641C1B0D8700656F9B /* Myjiff */,
 				11CFF17C1C1B0D8700656F9B /* MyjiffTests */,
 				11CFF1631C1B0D8700656F9B /* Products */,
@@ -182,6 +199,12 @@
 			mainGroup = 11CFF1591C1B0D8700656F9B;
 			productRefGroup = 11CFF1631C1B0D8700656F9B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1164E86C1CD9F97B00993324 /* Products */;
+					ProjectRef = 1164E86B1CD9F97B00993324 /* KituraBluePic-server.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				11CFF1611C1B0D8700656F9B /* Myjiff */,
@@ -189,6 +212,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1164E8701CD9F97B00993324 /* KituraBluePic-server */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "KituraBluePic-server";
+			remoteRef = 1164E86F1CD9F97B00993324 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		11CFF1601C1B0D8700656F9B /* Resources */ = {
@@ -349,6 +382,7 @@
 				INFOPLIST_FILE = Myjiff/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -359,6 +393,7 @@
 				INFOPLIST_FILE = Myjiff/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -415,6 +450,7 @@
 				11CFF1851C1B0D8700656F9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11CFF1861C1B0D8700656F9B /* Build configuration list for PBXNativeTarget "MyjiffTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +459,7 @@
 				11CFF1881C1B0D8700656F9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
